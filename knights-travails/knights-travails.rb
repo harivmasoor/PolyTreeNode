@@ -47,7 +47,7 @@ class KnightPathFinder
     end
 
     def find_path(end_pos)
-    
+        root_node = build_move_tree(@start_pos)
     end
 end
 
